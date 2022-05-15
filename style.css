@@ -1,0 +1,79 @@
+body{
+  dislpay:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FFE000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+height: 100%;
+}
+
+h3{
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 90px;
+  margin-top: -2px;
+  
+}
+
+#current-time {
+
+  background: #F7F8F8;  
+  background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+align-items: center;  
+display:flow-root;
+  width: 30%;
+  height: 8%;
+  margin: auto;
+  padding-top: 40px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+
+
+.user-input{
+
+  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+
+.user-input>input{
+  size: 100px;
+  padding: 8px;
+  border-radius: 4px solid red;
+  border:red 1px;
+  
+}
+
+
+
+#set{
+ border-radius: 30%;
+  margin: 10px; 
+  padding: 10px; 
+}
+#stop{
+  border-radius: 30%;
+   margin: 10px; 
+   padding: 10px; 
+ }
+
+
+
